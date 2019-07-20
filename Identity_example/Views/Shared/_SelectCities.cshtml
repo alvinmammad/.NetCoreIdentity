@@ -1,0 +1,6 @@
+﻿@model IEnumerable<City>
+
+@foreach (var city in Model)
+{
+    <option value="@city.ID">@city.Name</option>
+}
